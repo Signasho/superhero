@@ -21,8 +21,16 @@
         <img src="./assets/img/sh1.jpg" alt="">
         <h1>Encuentra tu SuperHero</h1>
         <p>Ingresa el número del SuperHero a buscar</p>
-        <input type="number"><br>
-        <button class="btn btn-primary my-2">Buscar</button>
+        <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="superHeroNumber" aria-describedby="emailHelp" placeholder="Ejemplo: 332">
+            </div>
+            <button id="button" class="btn btn-primary">Buscar</button>
+          </form>
+
+          <div id="superHeroCard"></div>
+          <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+
     </section>
     
 
